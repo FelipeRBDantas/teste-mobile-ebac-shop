@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar o repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/FelipeRBDantas/testes-api-cy.git'
+                git branch: 'main', url: 'https://github.com/FelipeRBDantas/teste-mobile-ebac-shop.git'
             }
         }
         stage('Instalar dependencias') {
