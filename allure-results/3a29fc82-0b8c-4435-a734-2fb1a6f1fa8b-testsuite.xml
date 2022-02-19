@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645294036114' stop='1645294036278'>
+    <name>Access Form Panel</name>
+    <title>Access Form Panel</title>
+    <test-cases>
+        <test-case start='1645294036115' status='passed' stop='1645294036264'>
+            <name>must fill in the form fields</name>
+            <title>must fill in the form fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ce0517150b1cccc10c-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ea622513-57a4-4150-8082-9a2599eb1ed3-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
