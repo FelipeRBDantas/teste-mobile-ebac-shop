@@ -11,18 +11,34 @@ class HomeScreen {
         return $('id:text1');
     }
 
+    get #buttonActive() {
+        return $('//android.view.ViewGroup[@content-desc="button-Active"]');
+    }
+
+    get #alertTitle() {
+        return $('id:alertTitle');
+    }
+
     async goToForm() {
-        this.#form.click();
+        await this.#form.click();
     }
 
     async insertInputField() {
-        this.#inputField.click();
-        this.#inputField.setValue('teste');
+        await this.#inputField.click();
+        await this.#inputField.setValue('teste');
     }
 
     async insertInputDropdown() {
-        this.#inputDropdown.click();
-        this.#inputDropdown.setValue('1');
+        await this.#inputDropdown.click();
+        await this.#inputDropdown.setValue('1');
+    }
+
+    async clickButtonActive() {
+        await this.#buttonActive.click();
+    }
+
+    async getAlertTitle() {
+        return await this.#alertTitle.getText();
     }
 }
 

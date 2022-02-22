@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645294347479' stop='1645294347623'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645537760783' stop='1645537760961'>
     <name>Access Form Panel</name>
     <title>Access Form Panel</title>
     <test-cases>
-        <test-case start='1645294347480' status='passed' stop='1645294347608'>
+        <test-case start='1645537760784' status='passed' stop='1645537760949'>
             <name>must fill in the form fields</name>
             <title>must fill in the form fields</title>
             <labels>
@@ -12,11 +12,11 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='device' value='ce0517150cf3381301-7.0'/>
+                <parameter kind='argument' name='device' value='ce041714486ac88c0c-7.0'/>
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Execution video' source='f44e3687-4f38-40d1-a2ad-11326dc0d707-attachment.mp4' type='video/mp4' size='200'/>
+                <attachment title='Execution video' source='71db5ca0-2cf3-40e8-bef6-f626d4a59070-attachment.mp4' type='video/mp4' size='200'/>
             </attachments>
         </test-case>
     </test-cases>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645539057982' stop='1645539079448'>
+    <name>Access Form Panel</name>
+    <title>Access Form Panel</title>
+    <test-cases>
+        <test-case start='1645539057982' status='broken' stop='1645539079434'>
+            <name>must fill in the form fields</name>
+            <title>must fill in the form fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ce0417145dde58c40d-7.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='47eccac1-3b49-4a78-87a1-3c0f67b5386d-attachment.mp4' type='video/mp4' size='200'/>
+            </attachments>
+            <failure>
+                <message>Can't call getText on element with selector "id:alertTitle" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "id:alertTitle" because element wasn't found
+                    at implicitWait (C:\Users\felip\Documents\courses\ebac_teste_de_software\MOD16\teste-mobile-ebac-shop\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\felip\Documents\courses\ebac_teste_de_software\MOD16\teste-mobile-ebac-shop\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\felip\Documents\courses\ebac_teste_de_software\MOD16\teste-mobile-ebac-shop\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\felip\Documents\courses\ebac_teste_de_software\MOD16\teste-mobile-ebac-shop\test\specs\form.spec.js:8:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
